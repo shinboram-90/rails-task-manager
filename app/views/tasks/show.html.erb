@@ -1,0 +1,7 @@
+<div class="container">
+<button class= 'btn btn-secondary'><%= link_to('Edit task', edit_task_path(@task)) %></button>
+<h2><%= @task.title %></h2>
+<p><%= @task.details %></p>
+<p><%= @task.completed %></p>
+<%= link_to('Back to list', tasks_path) %>
+</div>
